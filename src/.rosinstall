@@ -1,13 +1,13 @@
 # Fork ros_control_boilerplate from https://github.com/davetcoleman/ros_control_boilerplate.git
 - git:
     local-name: ros_control_boilerplate
-    uri: https://github.com/MathieuR/ros_control_boilerplate.git
+    uri: ssh://git@github.com/MathieuR/ros_control_boilerplate.git
     version: kinetic-devel
 
 # Fork navio from https://github.com/emlid/Navio.git
 - git:
     local-name: navio
-    uri: https://github.com/MathieuR/navio.git
+    uri: ssh://git@github.com/MathieuR/navio.git
     version: master
 
 # raspicam (vanilla)
@@ -19,17 +19,17 @@
 # Fork bioloid_typea_gazebo from https://github.com/HumaRobotics/darwin_gazebo.git
 - git:
     local-name: bioloid_typea_gazebo
-    uri: https://github.com/MathieuR/bioloid_typea_gazebo.git
+    uri: ssh://git@github.com/MathieuR/bioloid_typea_gazebo.git
     version: master
 
 # bioloid_typea_description
 - git: 
     local-name: bioloid_typea_description
-    uri: git@github.com:MathieuR/bioloid_typea_description.git
+    uri: ssh://git@github.com/MathieuR/bioloid_typea_description.git
     version: master
 
 # Fork teleop_twist_joy from https://github.com/ros-teleop/teleop_twist_joy.git 
 - git:
     local-name: teleop_twist_joy
-    uri: https://github.com/MathieuR/teleop_twist_joy.git
+    uri: ssh://git@github.com/MathieuR/teleop_twist_joy.git
     version: indigo-devel
