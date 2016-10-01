@@ -35,8 +35,14 @@
     version: indigo-devel
 
 # RPI userland (https://github.com/raspberrypi/userland.git)
-- git
+- git:
     local-name: userland
     uri: https://github.com/raspberrypi/userland.git
+    version: master
+
+# drake (https://github.com/RobotLocomotion/drake.git)
+- git:
+    local-name: drake-distro
+    uri: ssh://git@github.com/MathieuR/drake.git
     version: master
 
