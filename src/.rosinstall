@@ -33,3 +33,10 @@
     local-name: teleop_twist_joy
     uri: ssh://git@github.com/MathieuR/teleop_twist_joy.git
     version: indigo-devel
+
+# RPI userland (https://github.com/raspberrypi/userland.git)
+- git
+    local-name: userland
+    uri: https://github.com/raspberrypi/userland.git
+    version: master
+
