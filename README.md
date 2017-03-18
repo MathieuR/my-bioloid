@@ -34,6 +34,7 @@ Start the walking script:
 
 Control:
 
+    sudo usermod -a -G dialout $USER (for usb2ax /dev/ttyACM0)
     roslaunch ros_control_boilerplate bioloid_hardware.launch
 
 Walking demo:
