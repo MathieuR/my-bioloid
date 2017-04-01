@@ -16,10 +16,10 @@
     uri: https://github.com/UbiquityRobotics/raspicam_node.git
     version: indigo
 
-# Fork bioloid_typea_gazebo from https://github.com/HumaRobotics/darwin_gazebo.git
+# bioloid_motion from https://github.com/MathieuR/bioloid_motion.git
 - git:
-    local-name: bioloid_typea_gazebo
-    uri: ssh://git@github.com/MathieuR/bioloid_typea_gazebo.git
+    local-name: bioloid_motion
+    uri: ssh://git@github.com/MathieuR/bioloid_motion.git
     version: master
 
 # bioloid_typea_description
