@@ -7,10 +7,6 @@
     uri: ssh://git@github.com/MathieuR/bioloid_typea_description.git
     version: master
 - git:
-    local-name: bioloid_typea_gazebo
-    uri: ssh://git@github.com/MathieuR/bioloid_typea_gazebo.git
-    version: master
-- git:
     local-name: navio
     uri: ssh://git@github.com/MathieuR/navio.git
     version: master
