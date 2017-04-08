@@ -1,52 +1,40 @@
-# Fork ros_control_boilerplate from https://github.com/davetcoleman/ros_control_boilerplate.git
 - git:
-    local-name: ros_control_boilerplate
-    uri: ssh://git@github.com/MathieuR/ros_control_boilerplate.git
-    version: kinetic-devel
-
-# Fork navio from https://github.com/emlid/Navio.git
-- git:
-    local-name: navio
-    uri: ssh://git@github.com/MathieuR/navio.git
+    local-name: bioloid_motion
+    uri: ssh://git@github.com/MathieuR/bioloid_motion.git
     version: master
-
-# raspicam (vanilla)
 - git:
-    local-name: raspicam
-    uri: https://github.com/UbiquityRobotics/raspicam_node.git
-    version: indigo
-
-# Fork bioloid_typea_gazebo from https://github.com/HumaRobotics/darwin_gazebo.git
+    local-name: bioloid_typea_description
+    uri: ssh://git@github.com/MathieuR/bioloid_typea_description.git
+    version: master
 - git:
     local-name: bioloid_typea_gazebo
     uri: ssh://git@github.com/MathieuR/bioloid_typea_gazebo.git
     version: master
-
-# bioloid_typea_description
-- git: 
-    local-name: bioloid_typea_description
-    uri: ssh://git@github.com/MathieuR/bioloid_typea_description.git
-    version: master
-
-# Fork teleop_twist_joy from https://github.com/ros-teleop/teleop_twist_joy.git 
-- git:
-    local-name: teleop_twist_joy
-    uri: ssh://git@github.com/MathieuR/teleop_twist_joy.git
-    version: indigo-devel
-
-# RPI userland (https://github.com/raspberrypi/userland.git)
-- git:
-    local-name: userland
-    uri: https://github.com/raspberrypi/userland.git
-    version: master
-
-# drake (https://github.com/RobotLocomotion/drake.git)
 - git:
     local-name: drake-distro
     uri: ssh://git@github.com/MathieuR/drake.git
     version: master
-
+- git:
+    local-name: navio
+    uri: ssh://git@github.com/MathieuR/navio.git
+    version: master
+- git:
+    local-name: raspicam
+    uri: https://github.com/UbiquityRobotics/raspicam_node.git
+    version: indigo
 - git:
     local-name: ros_control
     uri: https://github.com/ros-controls/ros_control.git
     version: kinetic-devel
+- git:
+    local-name: ros_control_boilerplate
+    uri: ssh://git@github.com/MathieuR/ros_control_boilerplate.git
+    version: kinetic-devel
+- git:
+    local-name: teleop_twist_joy
+    uri: ssh://git@github.com/MathieuR/teleop_twist_joy.git
+    version: indigo-devel
+- git:
+    local-name: userland
+    uri: https://github.com/raspberrypi/userland.git
+    version: master
