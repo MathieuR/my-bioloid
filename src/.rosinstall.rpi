@@ -10,10 +10,6 @@
     local-name: bioloid_typea_gazebo
     uri: ssh://git@github.com/MathieuR/bioloid_typea_gazebo.git
     version: master
-#- git:
-#    local-name: drake-distro
-#    uri: ssh://git@github.com/MathieuR/drake.git
-#    version: master
 - git:
     local-name: navio
     uri: ssh://git@github.com/MathieuR/navio.git
