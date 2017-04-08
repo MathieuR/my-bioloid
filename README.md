@@ -3,15 +3,13 @@ my-bioloid
 
 ## rviz
 
-Standalone:
+Standalone (using TF transform from joint state publisher GUI):
 
     roslaunch bioloid_typea_description rviz.launch standalone:=true
 
-With control simulated:
+With ros control (using TF from robot joint publisher's joint state from ros control boiler plate): 
 
-    roslaunch ros_control_boilerplate bioloid_simulation.launch
-
-    roslaunch ros_control_boilerplate bioloid_visualize.launch
+    roslaunch bioloid_typea_description rviz.launch
 
 ## Simulator
 
@@ -24,11 +22,13 @@ If the robot fall when play is pressed, make sure the control are started:
 
 Start physics simulator (gazebosim):
 
-    roslaunch bioloid_typea_gazebo gazebo.launch
+    roslaunch bioloid_typea_gazebo gazebo.launch (python)
+    roslaunch bioloid_motion gazebo.launch (C++)
 
 Start the walking script:
 
-    rosrun bioloid_typea_gazebo walker_demo.py
+    rosrun bioloid_typea_gazebo walker_demo.py (python)
+    rosrun bioloid_motion robot_motion_walk_test (C++)
 
 ## Real robot
 
