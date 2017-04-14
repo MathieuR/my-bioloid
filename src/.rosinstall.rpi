@@ -15,10 +15,6 @@
     uri: https://github.com/UbiquityRobotics/raspicam_node.git
     version: indigo
 - git:
-    local-name: ros_control
-    uri: https://github.com/ros-controls/ros_control.git
-    version: kinetic-devel
-- git:
     local-name: ros_control_boilerplate
     uri: ssh://git@github.com/MathieuR/ros_control_boilerplate.git
     version: kinetic-devel
