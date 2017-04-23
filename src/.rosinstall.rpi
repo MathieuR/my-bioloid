@@ -1,28 +1,32 @@
 - git:
     local-name: bioloid_motion
-    uri: ssh://git@github.com/MathieuR/bioloid_motion.git
+    uri: https://github.com/MathieuR/bioloid_motion.git
     version: master
 - git:
     local-name: bioloid_typea_description
-    uri: ssh://git@github.com/MathieuR/bioloid_typea_description.git
+    uri: https://github.com/MathieuR/bioloid_typea_description.git
     version: master
 - git:
     local-name: navio
-    uri: ssh://git@github.com/MathieuR/navio.git
+    uri: https://github.com/MathieuR/navio.git
     version: master
 - git:
     local-name: raspicam
     uri: https://github.com/UbiquityRobotics/raspicam_node.git
     version: indigo
 - git:
+    local-name: ros_control
+    uri: https://github.com/MathieuR/ros_control.git
+    version: kinetic-devel
+- git:
     local-name: ros_control_boilerplate
-    uri: ssh://git@github.com/MathieuR/ros_control_boilerplate.git
+    uri: https://github.com/MathieuR/ros_control_boilerplate.git
     version: kinetic-devel
 - git:
     local-name: teleop_twist_joy
-    uri: ssh://git@github.com/MathieuR/teleop_twist_joy.git
+    uri: https://github.com/MathieuR/teleop_twist_joy.git
     version: indigo-devel
-#- git:
-#    local-name: userland
-#    uri: https://github.com/raspberrypi/userland.git
-#    version: master
+- git:
+    local-name: userland
+    uri: https://github.com/raspberrypi/userland.git
+    version: master
