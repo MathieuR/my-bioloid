@@ -6,3 +6,5 @@ ros_control_boilerplate/
 teleop_twist_joy/
 build/
 devel/
+ros_control/
+bioloid_motion/
