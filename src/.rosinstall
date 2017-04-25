@@ -7,6 +7,9 @@
     uri: https://github.com/MathieuR/bioloid_typea_description.git
     version: master
 - git:
+    local-name: ds4drv
+    uri: https://github.com/chrippa/ds4drv.git
+- git:
     local-name: navio
     uri: https://github.com/MathieuR/navio.git
     version: master
